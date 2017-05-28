@@ -1,6 +1,16 @@
+## Frobenius norm
+Frobenius norm can decide whether two matrices are similar.
+```
+difference = np.linalg.norm(dists - dists_one, ord='fro')
+The following norms can be calculated:
+```
+
 ## np.concatenate, np.hstack, np.vstack
-np.hstack = np.concatenate(axis=1)
-np.vstack = np.concatenate(axis=0)
+numpy.concatenate((a1, a2, ...), axis=0) is used to join a sequence of arrays along an existing axis.
+
+np.hstack == np.concatenate(axis=1)  
+
+np.vstack == np.concatenate(axis=0)
 
 ```
 a = np.random.random((2,3))
@@ -45,4 +55,18 @@ abc_con_axis0.shape #(6L, 3L)
 
 # check the difference between abc_vec and abc_con_axis0
 np.linalg.norm((abc_vec-abc_con_axis0), ord='fro') #0.0
+```
+
+# np.array_split
+numpy.array_split(ary, indices_or_sections, axis=0) is used to split an array into multiple sub-arrays.
+```
+x = np.arange(8.0)
+np.array_split(x, 3) # [array([ 0.,  1.,  2.]), array([ 3.,  4.,  5.]), array([ 6.,  7.])]
+```
+
+# np.argsort 
+numpy.argsort(a, axis=-1, kind='quicksort', order=None) returns the indices that would sort an array.
+```
+x = np.array([3, 1, 2])
+np.argsort(x) # array([1, 2, 0])
 ```
