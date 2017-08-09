@@ -48,7 +48,7 @@
   ```
   
  - Iterator
-   - get `Iterator` by calling `iter` on `Iterable`. 
+   - get `Iterator` by calling `iter` on `Iterable`
    ```
    from collections import Iterator, Iterable
    if __name__ == '__main__':
