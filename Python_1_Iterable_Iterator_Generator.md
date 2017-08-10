@@ -6,6 +6,7 @@
   ```
   import types
   from collections import Iterable, Iterator
+  
   if __name__ == '__main__':
       list_exam = ['a', 'b', 'c']
       list_exam_gen = (e for e in list_exam) # generation expression
@@ -25,7 +26,6 @@
   import codecs
   import types
 
-
   def read_file(filepath):
       file_content = codecs.open(filename=filepath, mode='r', encoding='utf-8')
       for each_line in file_content:
@@ -42,6 +42,7 @@
   - `str`, `list`, `tuple`, `set`, `dict` all are `Iterable`
   ```
   from collections import Iterable
+  
   if __name__ == '__main__':
       str_exam = 'abc'
       print(isinstance(str_exam, Iterable)) # True
@@ -61,6 +62,7 @@
    - `next` to get next value
    ```
    from collections import Iterator, Iterable
+   
    if __name__ == '__main__':
        list_exam = ['a', 'b', 'c']
        list_iterator = iter(list_exam)
