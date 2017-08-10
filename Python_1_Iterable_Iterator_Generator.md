@@ -20,7 +20,9 @@
   ```
   - `yield` give a generator, when to use `yield` instead of `return` ?
   
-  When you want to iterate over a sequence, but don’t want to store the entire sequence in memory. Note, you can only **iterate over them once** (because it does not store the values in memory)
+  When you want to iterate over a sequence, but don’t want to store the entire sequence in memory. Note, you can only **iterate over them once** (because it does not store the values in memory).
+  
+  `list(generator)` to read all data into memroy.
 
   ```
   import codecs
@@ -34,6 +36,11 @@
   if __name__ == '__main__':
       print(isinstance(read_file(filepath='test_file.txt'), types.GeneratorType)) # True
       for each_line in read_file(filepath='test_file.txt'):
+          print(each_line)
+      
+      print('='*100)
+      all_lines = list(read_file(filepath='test_file.txt')) # list() get all data
+      for each_line in all_lines:
           print(each_line)
 
   ```
