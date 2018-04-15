@@ -7,4 +7,4 @@
 - `Numpy_1_ndarray shape.ipynb`: ndarray shape. See [Chinese Notes](http://url.cn/58GGOaU), [中文解读](http://url.cn/58GGOaU).
 
 # Pandas
-- ...
+- `Pandas_1_Series_DataFrame.ipynb`: introduction of `Series` and `DataFrame`.
