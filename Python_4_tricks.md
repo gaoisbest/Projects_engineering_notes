@@ -19,3 +19,16 @@ if input_text > u'\u4e00' and input_text < u'\u9fff':
 ```
 python -m site
 ```
+
+# split with multiple conditions
+```
+re.split(r'[:：]', each_line, maxsplit=1)
+```
+
+# format a dict
+```
+infos = {'name': 'zhangsan', 'age': 18}
+# **infos = 'name': 'zhangsan', 'age': 18
+print('My name is {name}, and I am {age} years old.'.format(**infos))
+# My name is zhangsan, and I am 18 years old.
+```
