@@ -1,3 +1,9 @@
+# remove all space in a str
+```
+a = 'he l l o'
+a = a.replace(' ', '')
+```
+
 # help(func) and dir(func)
 Have a quick look at the documents of `func` and available methods of `func`.
 
