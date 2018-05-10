@@ -17,7 +17,7 @@ if os.path.getsize('a.txt') > 100000: # larger than 100kb
 
 # contains Chinese character
 ```
-if input_text > u'\u4e00' and input_text < u'\u9fff':
+if input_text >= u'\u4e00' and input_text <= u'\u9fff':
     rtn = True
 ```
 
