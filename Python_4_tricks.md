@@ -1,3 +1,18 @@
+# json example
+```
+a = {'a': 1}
+b = json.dumps(a)
+type(b) # <class 'str'>
+c = json.loads(b)
+type(c) # <class 'dict'>
+```
+
+# append text to the file
+```
+with open(file, mode='a') as f:
+    f.write('')
+```
+
 # remove all space in a str
 ```
 a = 'he l l o'
