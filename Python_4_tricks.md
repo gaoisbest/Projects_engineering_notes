@@ -1,3 +1,12 @@
+# convert doc or pdf to txt in Linux
+```
+# convert doc to txt
+os.system("libreoffice --headless --convert-to txt '{}'".format(doc_file_path))
+
+# convert pdf to txt
+os.system("pdftotext '{}'".format(f_new))
+```
+
 # json example
 ```
 a = {'a': 1}
