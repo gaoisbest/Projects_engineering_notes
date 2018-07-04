@@ -1,3 +1,12 @@
+# Outline
+
+# Ignore DeprecationWarning
+```
+# https://stackoverflow.com/questions/49545947/sklearn-deprecationwarning-truth-value-of-an-array
+import warnings
+warnings.filterwarnings(action='ignore', category=DeprecationWarning)
+```
+
 # convert doc or pdf to txt in Linux
 ```
 # convert doc to txt
