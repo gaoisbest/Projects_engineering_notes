@@ -1,5 +1,10 @@
 # Outline
 
+# format digits
+```
+a = 0.8932
+a_format = '%.2f' % a
+```
 # Ignore DeprecationWarning
 ```
 # https://stackoverflow.com/questions/49545947/sklearn-deprecationwarning-truth-value-of-an-array
