@@ -1,5 +1,10 @@
 # Outline
 
+# install specified package version
+```
+pip install -v package_name==0.9.3
+```
+
 # format digits
 ```
 a = 0.8932
