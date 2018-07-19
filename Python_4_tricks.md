@@ -1,5 +1,11 @@
 # Outline
 
+# Mac matplotlib show Chinese
+```
+# solution
+matplotlib图例中文乱码? - 知乎
+https://www.zhihu.com/question/25404709/answer/170849168
+```
 # install specified package version
 ```
 pip install -v package_name==0.9.3
