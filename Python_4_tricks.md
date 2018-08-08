@@ -1,5 +1,22 @@
 # Outline
 
+# Close printed information about jieba and tensorflow
+```
+# for jieba
+Building prefix dict from /usr/lib/python2.7/site-packages/jieba/dict.txt ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.182227134705 seconds.
+Prefix dict has been built succesfully.
+
+import logging
+jieba.setLogLevel(logging.INFO)
+
+
+# for tensorflow
+Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+```
 # Mac matplotlib show Chinese
 ```
 # solution
