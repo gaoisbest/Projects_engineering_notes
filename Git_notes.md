@@ -23,3 +23,9 @@ git config user.email new_email
 git config --global user.name new_name
 git config --global user.email new_email
 ```
+
+# 3. Remove git attribute for a folder
+```
+# from https://stackoverflow.com/questions/4754152/how-do-i-remove-git-tracking-from-a-project
+rm -rf .git
+```
