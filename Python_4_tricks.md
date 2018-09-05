@@ -23,9 +23,12 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 matplotlib图例中文乱码? - 知乎
 https://www.zhihu.com/question/25404709/answer/170849168
 ```
-# install specified package version
+# install specified package version or Douban source
 ```
 pip install -v package_name==0.9.3
+
+# Douban source
+pip install -i https://pypi.doubanio.com/simple/ tensor2tensor
 ```
 
 # format digits
