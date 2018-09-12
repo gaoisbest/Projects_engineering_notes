@@ -8,3 +8,22 @@
 
 # Pandas
 - `Pandas_1_Series_DataFrame.ipynb`: introduction of `Series` and `DataFrame`.
+
+# base64
+## Save image to byte
+```
+image_src = 'teset.svg'
+with open(image_src, "rb") as f:
+    data = f.read()
+    # to serialize in JSON, here decode("utf8") is needed
+    a = {'status': base64.b64encode(data).decode("utf8")}
+```
+
+## Covnert byte to image
+```
+a = {'status':'csfdfdere'}
+image_decode = base64.b64decode(a['status'].encode("utf8"))
+image_res = open('/Users/test.svg', 'wb')
+image_res.write(image_decode)
+image_res.close()
+```
