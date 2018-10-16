@@ -1,3 +1,8 @@
+# Folder size
+```
+du -lh --max-depth=1
+```
+
 # Decompress
 ```
 # tar.gz
