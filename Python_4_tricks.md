@@ -1,5 +1,10 @@
 # Outline
 
+# Find python package path
+```
+pip showa jieba
+```
+
 # Close printed information about jieba and tensorflow
 ```
 # for jieba
