@@ -2,7 +2,7 @@
 
 # Find python package path
 ```
-pip showa jieba
+pip show jieba
 ```
 
 # Close printed information about jieba and tensorflow
