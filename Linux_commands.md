@@ -2,7 +2,11 @@
 ```
 du -lh --max-depth=1
 ```
-
+# Compress
+```
+# tar.gz
+tar -czvf xx.tar.gz xx_folder
+```
 # Decompress
 ```
 # tar.gz
