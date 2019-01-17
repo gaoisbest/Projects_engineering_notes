@@ -11,6 +11,16 @@ pip install -i https://pypi.doubanio.com/simple/ tensor2tensor
 pip install --upgrade --force-reinstall tensorflow-gpu==1.9.0
 ```
 
+## Config user-defined dictionary for jieba
+```
+python -m site find site-packages location, and find the folder of jieba, such as, /usr/lib/python3.6/site-packages/jieba
+
+cd jieba_folder, rename dict.txt to dict_src.txt
+
+copy user-defined dict to jieba_folder, and rename it to dict.txt
+
+cd /tmp remove old jieba.cache
+```
 
 ## Find python package path
 ```
