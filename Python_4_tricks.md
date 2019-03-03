@@ -32,6 +32,19 @@ pip show jieba
 python -m site
 ```
 
+## Python3 pickle load python2 files
+```
+# from https://stackoverflow.com/questions/11305790/pickle-incompatibility-of-numpy-arrays-between-python-2-and-3
+import pickle
+
+with open('mnist.pkl', 'rb') as f:
+    u = pickle._Unpickler(f)
+    u.encoding = 'latin1'
+    p = u.load()
+    print(p)
+    
+```
+
 ## Close printed information about jieba and tensorflow
 ```
 # for jieba
