@@ -11,6 +11,15 @@ pip install -i https://pypi.doubanio.com/simple/ tensor2tensor
 pip install --upgrade --force-reinstall tensorflow-gpu==1.9.0
 ```
 
+## Convert pdf to txt
+```
+# python 2
+pip install pdfminer
+
+# python 3
+pip install pdfminer.six
+```
+
 ## Config user-defined dictionary for jieba
 ```
 python -m site find site-packages location, and find the folder of jieba, such as, /usr/lib/python3.6/site-packages/jieba
