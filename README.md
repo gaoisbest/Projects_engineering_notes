@@ -2,12 +2,16 @@
 - `Python_1_Iterable Iterator Generator.ipynb`: generator, iterator, iterable. See [Chinese Notes](http://url.cn/54BFOJR), [中文解读](http://url.cn/54BFOJR).
 - `Python_2_list comprehension.ipynb`: list comprehension. See [Chinese Notes](http://url.cn/50UrGtb), [中文解读](http://url.cn/50UrGtb).
 - `Python_3_property decorator.ipynb`: property decorator. See [Chinese Notes](http://url.cn/5rIEJJg), [中文解读](http://url.cn/5rIEJJg).
+- `Python_4_tricks.md`: pip image, find package infomation, encoding etc.
+- `Python_5_Cartesian_product.ipynb`: Cartesian product to substitute nested-for loop for hyper-parameter evaluating
+
 
 # Numpy
-- `Numpy_1_ndarray shape.ipynb`: ndarray shape. See [Chinese Notes](http://url.cn/58GGOaU), [中文解读](http://url.cn/58GGOaU).
+- `Numpy_1_ndarray shape.ipynb`: ndarray shape. See [Chinese Notes](http://url.cn/58GGOaU), [中文解读](http://url.cn/58GGOaU)
 
 # Pandas
-- `Pandas_1_Series_DataFrame.ipynb`: introduction of `Series` and `DataFrame`.
+- `Pandas_1_Series_DataFrame.ipynb`: introduction of `Series` and `DataFrame`
+- `Pandas_2_DataFrame operations.ipynb`: `DataFrame` operations
 
 # base64
 ## Save image to byte
