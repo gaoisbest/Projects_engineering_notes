@@ -1,3 +1,7 @@
+# 0. New a branch and change to this branch
+`git checkout -b platform`
+
+
 # 1. Unstage added files
 ```
 # already git add a.py
