@@ -33,3 +33,12 @@ git config --global user.email new_email
 # from https://stackoverflow.com/questions/4754152/how-do-i-remove-git-tracking-from-a-project
 rm -rf .git
 ```
+
+# 4. In local, go back to history version, and push to server
+```
+# go back to history version
+git reset --hard commit_id
+
+# push to server
+git push origin branch_name --force
+```
