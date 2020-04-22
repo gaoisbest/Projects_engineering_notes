@@ -1,3 +1,7 @@
+# Change user
+`su -i root`
+`su -i user1`
+
 # Folder size
 ```
 du -lh --max-depth=1
