@@ -22,6 +22,9 @@
 # Docker
 - `Docker_notes.md`: frequently commands
 
+# PyTorch
+- `PyTorch.md`: frequently functions
+
 # base64
 ## Save image to byte
 ```
