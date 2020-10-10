@@ -42,3 +42,15 @@ git reset --hard commit_id
 # push to server
 git push origin branch_name --force
 ```
+
+# 5. [change to specific tag](https://stackoverflow.com/questions/791959/download-a-specific-tag-with-git)
+```
+# show all tags
+git tag -l
+
+# checkout tag
+git checkout tags/tag_id
+
+# checkout tag and new branch
+git checkout tags/tag_id -b new_branch_name
+```
