@@ -1,5 +1,11 @@
 # Outline
 
+## Sort dict by value
+```
+# from https://stackoverflow.com/questions/613183/how-do-i-sort-a-dictionary-by-value
+sorted_dict = {k: v for k, v in sorted(src.items(), key=lambda x: x[1])}
+```
+
 ## Install specified package version or Douban source
 ```
 pip install -v package_name==0.9.3
