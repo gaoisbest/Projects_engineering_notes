@@ -1,3 +1,6 @@
+# show tables in database
+`show tables in db_name`
+
 # join on
 ```
 select e.name, s.salary
