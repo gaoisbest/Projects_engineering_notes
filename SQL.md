@@ -10,6 +10,9 @@ create table table_a as
 - `select a from table where a is null`: `a` is `null`, otherwise, `a is not null`
 - `select a from table where a in (a1, a2, a3)`
 
+# Group
+- `select count(dept_no) from dept_emp group by dept_no order by count(dept_no) desc`
+- `select count(dept_no) from dept_emp group by dept_no having count(dept_no) > 5`
 
 # show tables in database
 `show tables in db_name`
@@ -22,9 +25,4 @@ join salaries s
 on e.emp_id = s.emp_id
 ```
 
-# group by
-```
-select dept_no, count(emp_no)
-from dept_emp
-group by dept_no
-```
+
